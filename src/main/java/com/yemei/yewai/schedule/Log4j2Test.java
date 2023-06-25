@@ -1,5 +1,10 @@
 package com.yemei.yewai.schedule;
 
+/**
+ * Description: 测试Log4j2打印日志
+ * Author: zjm
+ * Date: 2023/6/22 16:51
+ */
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
