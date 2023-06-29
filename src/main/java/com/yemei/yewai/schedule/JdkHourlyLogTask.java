@@ -1,10 +1,5 @@
 package com.yemei.yewai.schedule;
 
-/**
- * Description: JDK自动任务demo
- * Author: zjm
- * Date: 2023/6/22 16:51
- */
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -15,6 +10,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+/**
+ * Description: JDK自动任务demo
+ * Author: zjm
+ * Date: 2023/6/22 16:51
+ */
 
 @Component
 public class JdkHourlyLogTask extends TimerTask  implements CommandLineRunner {
