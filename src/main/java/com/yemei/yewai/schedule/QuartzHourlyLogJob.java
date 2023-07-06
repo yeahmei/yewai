@@ -1,10 +1,6 @@
 package com.yemei.yewai.schedule;
 
-/**
- * Description: Quartz自动任务demo
- * Author: zjm
- * Date: 2023/6/22 16:51
- */
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.quartz.Job;
@@ -13,7 +9,11 @@ import org.quartz.JobExecutionException;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+/**
+ * Description: Quartz自动任务demo
+ * Author: zjm
+ * Date: 2023/6/22 16:51
+ */
 public class QuartzHourlyLogJob implements Job {
     // 定义日志记录器对象
     public static final Logger LOGGER = LogManager.getLogger(QuartzHourlyLogJob.class);
