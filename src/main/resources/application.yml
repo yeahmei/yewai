@@ -1,6 +1,7 @@
 spring:
   quartz:
     job-store-type: memory # 默认为内存 memory 的方式
+    auto-startup: true
     wait-for-jobs-to-complete-on-shutdown: true # 关闭时等待任务完成
     overwrite-existing-jobs: true # 可以覆盖已有的任务
     properties: # quartz原生配置
@@ -18,5 +19,5 @@ spring:
             threadPriority: 5 # 线程优先级
             class: org.quartz.simpl.SimpleThreadPool # 指定线程池实现类，对调度器提供固定大小的线程池
     schedules:
-      job-ref: myJob
-      cron: 0/1 * * * * ?
+    job:
+      cron: "0/1 * * * * ?"

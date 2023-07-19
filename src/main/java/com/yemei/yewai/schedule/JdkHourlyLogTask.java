@@ -1,6 +1,5 @@
 package com.yemei.yewai.schedule;
 
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -17,6 +16,7 @@ import org.springframework.stereotype.Component;
  * Author: zjm
  * Date: 2023/6/22 16:51
  */
+
 @Component
 public class JdkHourlyLogTask extends TimerTask  implements CommandLineRunner {
 

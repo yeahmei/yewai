@@ -1,6 +1,5 @@
 package com.yemei.yewai.schedule;
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.quartz.Job;
@@ -9,6 +8,7 @@ import org.quartz.JobExecutionException;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 /**
  * Description: Quartz自动任务demo
  * Author: zjm
