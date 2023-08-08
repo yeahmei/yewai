@@ -2,3 +2,6 @@ scheduling:
   demo:
     task1:
       cron : 0/5 * * * * ?
+  crawler:
+    task1:
+      cron: 0 */1 * * * ?
